@@ -15,14 +15,9 @@ export default function Skill({ level, text }) {
         gridTemplateRows: "auto auto",
         placeItems: "center"
     }
-    const labelStyle = {
-        fontSize: "1.5em",
-        color: "white",
-        margin: "0px 50px 0px 50px"
-    }
     return (
         <div style={containerStyle}>
-            <p style={labelStyle}>{text}</p>
+            <p className='svg-label'>{text}</p>
             <div>
                 {svgArray}
             </div>

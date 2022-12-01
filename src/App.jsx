@@ -22,7 +22,7 @@ function App() {
                         <h1 className="about">About Me</h1>
                         <section>
                             <article className="about-text">
-                                Electronics technician, control and automation engineering student at UFABC and an intern at Scania Latin
+                                Electronics technician, control and automation engineering student at UFABC and intern at Scania Latin
                                 America. I have great interest in technology, data science, machine learning, programming, automation and
                                 electronics in general. I am currently a data science and industrial automation intern at Scania in the
                                 plant of São Bernardo, in which I extract, analyze, process and present data from the production process,
@@ -55,15 +55,11 @@ function App() {
                             </article>
                             <article className="info">
                                 <FontAwesomeIcon icon={faPhone} color="#ffff" fontSize="24px" />
-                                <a href="tel:11957896290" className="info-text">
-                                    <p>11-95789-6290</p>
-                                </a>
+                                <p><a href="tel:11957896290" className="info-text">11-95789-6290</a></p>
                             </article>
                             <article className="info">
                                 <FontAwesomeIcon icon={faEnvelope} color="#ffff" fontSize="24px" />
-                                <a href="mailto:nik.grande@hotmail.com" className="info-text">
-                                    <p>nik.grande@hotmail.com</p>
-                                </a>
+                                <p><a href="mailto:nik.grande@hotmail.com" className="info-text">nik.grande@hotmail.com</a></p>
                             </article>
                         </div>
                     </section>
@@ -71,19 +67,21 @@ function App() {
                         <h2 className="sub-header">Experience</h2>
                         <div className="skill-container">
                             <article className="skill">
-                                <img className="skill-img" src={challenger} alt="" />
-                                <div className="inner-skill">
-                                    <h3 className="skill-title">Head of Embedded Electronics</h3>
-                                    <p className="skill-text">Developed circuits for control and measurement of the vehicle. Coordination and distribution of
-                                        tasks to members of the department.</p>
-                                </div>
-                            </article>
-                            <article className="skill">
                                 <img className="skill-img" src={scania} alt="" />
                                 <div className="inner-skill">
                                     <h3 className="skill-title">Industrial Automation and Data Science Intern</h3>
+                                    <h4 className="skill-period">February 2022 - Present</h4>
                                     <p className="skill-text">I extract, analyze, process and present data from the production process, creating tools for
                                         data driven decision making, I also support other areas with the information they need.</p>
+                                </div>
+                            </article>
+                            <article className="skill">
+                                <img className="skill-img" src={challenger} alt="" />
+                                <div className="inner-skill">
+                                    <h3 className="skill-title">Head of Embedded Electronics</h3>
+                                    <h4 className="skill-period">January 2021 - March 2022</h4>
+                                    <p className="skill-text">Developed circuits for control and measurement of the vehicle. Coordination and distribution of
+                                        tasks to members of the department.</p>
                                 </div>
                             </article>
                         </div>
@@ -96,14 +94,14 @@ function App() {
                                     <img className="skill-img" src={etec} alt="" />
                                     <div className="inner-skill">
                                         <h3 className="skill-title">Electronics Technician</h3>
-                                        <p className="skill-text">February 2016 - December 2018</p>
+                                        <h4 className="skill-period">February 2016 - December 2018</h4>
                                     </div>
                                 </article>
                                 <article className="skill">
                                     <img className="skill-img" src={ufabc} alt="" />
                                     <div className="inner-skill">
                                         <h3 className="skill-title">Control and Automation Engineering</h3>
-                                        <p className="skill-text">June 2019 - December 2024</p>
+                                        <h4 className="skill-period">June 2019 - December 2024</h4>
                                     </div>
                                 </article>
                             </div>

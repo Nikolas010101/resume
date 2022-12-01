@@ -3,7 +3,7 @@
     src: local("Monocraft"), url(./fonts/Monocraft.otf) format("opentype");
 }
 * {
-    font-family: Monocraft;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     margin: 0;
@@ -23,10 +23,11 @@ body {
 }
 .about {
     color: #ffff;
+    font-size: 3em;
 }
 .about-text {
     color: #ffff;
-    font-size: 1.2em;
+    font-size: 1.75em;
     text-align: justify;
     padding: 0px 20px 0px 20px;
 }
@@ -44,6 +45,7 @@ body {
 .links {
     color: #ffff;
     display: grid;
+    font-size: 1.5em;
     grid-template-rows: repeat(2, auto);
     place-items: start center;
     line-height: 100%;
@@ -74,11 +76,12 @@ body {
 }
 .name {
     color: #356258;
-    font-size: 3.5em;
+    font-size: 5em;
 }
 .description {
-    color: #3a7267;
-    font-size: 1.5em;
+    color: #37474f;
+    font-size: 2em;
+    text-align: center;
 }
 .infos {
     padding: 20px 0 0 0;
@@ -93,14 +96,14 @@ body {
     column-gap: 10px;
 }
 .info-text {
-    color: #356258;
-    font-size: 1.3em;
+    color: #37474f;
+    font-size: 1.6em;
     height: 1em;
-    line-height: 0em;
+    line-height: 1em;
     text-decoration: none;
 }
 .sub-header {
-    font-size: 3em;
+    font-size: 4em;
     color: #356258;
 }
 .skills {
@@ -118,13 +121,20 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     margin: 0px 20px 0px 20px;
+    column-gap: 50px;
 }
 .skill-title {
     color: #356258;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .skill-text {
     color: #ffff;
+    font-size: 1.5em;
+}
+.skill-period {
+    color: #37474f;
+    margin-top: 0px;
+    font-size: 1.6em;
 }
 .skills-education {
     display: grid;
@@ -140,18 +150,19 @@ body {
     filter: invert();
 }
 .svg-label {
-    font-size: 1.5em;
-    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    color: #37474f;
     margin: 0px 50px 0px 50px;
+}
+svg[role="img"] {
+    place-self: center;
 }
 @media (max-width: 1760px) {
     .grid-container {
         display: grid;
         grid-template-columns: none;
         grid-template-rows: auto auto;
-    }
-    .header {
-        width: 100%;
     }
     .about-text {
         margin: auto;
@@ -169,20 +180,30 @@ body {
     .basic-info {
         grid-template-columns: none;
         place-items: center;
+        margin: 0px 0px 20px 0px;
     }
     .name {
-        font-size: 2.2em;
+        font-size: 3em;
         text-align: center;
+    }
+    .infos {
+        row-gap: 20px;
     }
     .description {
         text-align: center;
         padding: 20px 20px 0px 20px;
     }
-    .info-text{
-        font-size: 1em;
+    .info-text {
+        font-size: 1.5em;
     }
     .skill-img {
-        width: 150px;
+        width: 120px;
+    }
+    .skill-title {
+        font-size: 1.5em;
+    }
+    .skill-period {
+        font-size: 1.3em;
     }
     .foto:hover {
         width: 200px;
@@ -194,15 +215,12 @@ body {
         border-left: 0px;
     }
     .skill-img:hover {
-        width: 150px;
+        width: 120px;
     }
     .skill-img {
         margin-bottom: 10px;
     }
     .skill-container {
         grid-template-columns: none;
-    }
-    .svg-label {
-        font-size: 1em;
     }
 }

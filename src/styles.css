@@ -23,11 +23,11 @@ body {
 }
 .about {
     color: #ffff;
-    font-size: 3em;
+    font-size: 2em;
 }
 .about-text {
     color: #ffff;
-    font-size: 1.75em;
+    font-size: 1.5em;
     text-align: justify;
     padding: 0px 20px 0px 20px;
 }
@@ -45,7 +45,7 @@ body {
 .links {
     color: #ffff;
     display: grid;
-    font-size: 1.5em;
+    font-size: 1em;
     grid-template-rows: repeat(2, auto);
     place-items: start center;
     line-height: 100%;
@@ -76,11 +76,12 @@ body {
 }
 .name {
     color: #356258;
-    font-size: 5em;
+    font-size: 3em;
+    text-align: center;
 }
 .description {
     color: #37474f;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 .infos {
@@ -103,7 +104,7 @@ body {
     text-decoration: none;
 }
 .sub-header {
-    font-size: 4em;
+    font-size: 2.5em;
     color: #356258;
 }
 .skills {
@@ -150,7 +151,7 @@ body {
     filter: invert();
 }
 .svg-label {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
     color: #37474f;
     margin: 0px 50px 0px 50px;
@@ -168,11 +169,14 @@ svg[role="img"] {
         margin: auto;
         padding: 0px 50px 0px 50px;
     }
+    .link-img {
+        width: 70px;
+    }
     .link-img-container {
         margin-bottom: 10px;
     }
     .link-img:hover {
-        width: 100px;
+        width: 70px;
     }
     .content {
         width: 100%;
@@ -183,7 +187,7 @@ svg[role="img"] {
         margin: 0px 0px 20px 0px;
     }
     .name {
-        font-size: 3em;
+        font-size: 2.2em;
         text-align: center;
     }
     .infos {

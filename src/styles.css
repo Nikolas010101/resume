@@ -228,3 +228,8 @@ svg[role="img"] {
         grid-template-columns: none;
     }
 }
+@media print {
+    *{
+        background-color: white;
+    }
+}

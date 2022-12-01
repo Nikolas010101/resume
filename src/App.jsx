@@ -91,17 +91,17 @@ function App() {
                             <h2 className="sub-header">Education</h2>
                             <div className="skill-container">
                                 <article className="skill">
-                                    <img className="skill-img" src={etec} alt="" />
-                                    <div className="inner-skill">
-                                        <h3 className="skill-title">Electronics Technician</h3>
-                                        <h4 className="skill-period">February 2016 - December 2018</h4>
-                                    </div>
-                                </article>
-                                <article className="skill">
                                     <img className="skill-img" src={ufabc} alt="" />
                                     <div className="inner-skill">
                                         <h3 className="skill-title">Control and Automation Engineering</h3>
                                         <h4 className="skill-period">June 2019 - December 2024</h4>
+                                    </div>
+                                </article>
+                                <article className="skill">
+                                    <img className="skill-img" src={etec} alt="" />
+                                    <div className="inner-skill">
+                                        <h3 className="skill-title">Electronics Technician</h3>
+                                        <h4 className="skill-period">February 2016 - December 2018</h4>
                                     </div>
                                 </article>
                             </div>

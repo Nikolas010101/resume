@@ -114,6 +114,8 @@ function App() {
                                 <Skill level={4} text="Excel" />
                                 <Skill level={4} text="Web Dev" />
                                 <Skill level={5} text="Python" />
+                                <Skill level={4} text="Data Analysis" />
+                                <Skill level={4} text="SQL" />
                                 <Skill level={5} text="Ignition SCADA" />
                             </div>
                         </section>

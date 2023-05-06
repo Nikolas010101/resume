@@ -33,15 +33,15 @@ body {
 }
 .foto,
 .skill-img {
-    border-radius: 50%;
+    border-radius: 10%;
     border: solid 4px black;
     transition: 0.25s;
-    width: 200px;
+    width: 180px;
 }
-.foto:hover,
-.skill-img:hover {
-    width: 220px;
+.foto{
+    border-radius: 50%
 }
+
 .links {
     color: #ffff;
     display: grid;
@@ -126,7 +126,7 @@ body {
 }
 .skill-title {
     color: #356258;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .skill-text {
     color: #ffff;
@@ -159,7 +159,7 @@ body {
 svg[role="img"] {
     place-self: center;
 }
-@media (max-width: 1760px) {
+@media (max-width: 1800px) {
     .grid-container {
         display: grid;
         grid-template-columns: none;
@@ -174,9 +174,6 @@ svg[role="img"] {
     }
     .link-img-container {
         margin-bottom: 10px;
-    }
-    .link-img:hover {
-        width: 70px;
     }
     .content {
         width: 100%;
@@ -209,17 +206,11 @@ svg[role="img"] {
     .skill-period {
         font-size: 1.3em;
     }
-    .foto:hover {
-        width: 200px;
-    }
     .skills-education {
         grid-template-columns: none;
     }
     .skills-grid {
         border-left: 0px;
-    }
-    .skill-img:hover {
-        width: 120px;
     }
     .skill-img {
         margin-bottom: 10px;

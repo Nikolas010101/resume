@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import challenger from "../src/img/challenger.jpg";
+import hsbc from "../src/img/hsbc.png";
 import scania from "../src/img/scania.jpg";
 import etec from "../src/img/etec.jpg";
 import ufabc from "../src/img/ufabc.png";
@@ -22,11 +22,8 @@ function App() {
                         <h1 className="about">About Me</h1>
                         <section>
                             <article className="about-text">
-                                Electronics technician, control and automation engineering student at UFABC and intern at Scania Latin
-                                America. I have great interest in technology, data science, machine learning, programming, automation and
-                                electronics in general. I am currently a data science and industrial automation intern at Scania in the
-                                plant of São Bernardo, in which I extract, analyze, process and present data from the production process,
-                                creating tools for data driven decision making.
+                                <p>Mandarin Chinese and engineering student, electronics technician, and intern at HSBC.</p>
+                                <p>Very interested in technology, programming and finance, currently an operations intern at HSBC's Vila Olímpia office where I help automate processes and perform tasks related to the daily routine of the bank.</p>
                             </article>
                         </section>
                     </div>
@@ -46,7 +43,7 @@ function App() {
                     <section className="basic-info">
                         <div className="name-div">
                             <h1 className="name">Nikolas Avelino Grande</h1>
-                            <h2 className="description">Engineering student, data science intern and tech savvy</h2>
+                            <h2 className="description">Engineering student, operations intern and tech savvy</h2>
                         </div>
                         <div className="infos">
                             <article className="info">
@@ -67,21 +64,20 @@ function App() {
                         <h2 className="sub-header">Experience</h2>
                         <div className="skill-container">
                             <article className="skill">
-                                <img className="skill-img" src={scania} alt="" />
+                                <img className="skill-img" src={hsbc} alt="" />
                                 <div className="inner-skill">
-                                    <h3 className="skill-title">Industrial Automation and Data Science Intern</h3>
-                                    <h4 className="skill-period">February 2022 - Present</h4>
-                                    <p className="skill-text">I extract, analyze, process and present data from the production process, creating tools for
-                                        data driven decision making, I also support other areas with the information they need.</p>
+                                    <h3 className="skill-title">Cross Products Operations Intern</h3>
+                                    <h4 className="skill-period">April 2023 - Present</h4>
+                                    <p className="skill-text">I'm part of the Cross Products Operations team, I focus on bank reconciliation and generating reports regarding the bank's accounts. Additionally, I automate tasks to increase efficiency and reduce errors.</p>
                                 </div>
                             </article>
                             <article className="skill">
-                                <img className="skill-img" src={challenger} alt="" />
+                                <img className="skill-img" src={scania} alt="" />
                                 <div className="inner-skill">
-                                    <h3 className="skill-title">Head of Embedded Electronics</h3>
-                                    <h4 className="skill-period">January 2021 - March 2022</h4>
-                                    <p className="skill-text">Developed circuits for control and measurement of the vehicle. Coordination and distribution of
-                                        tasks to members of the department.</p>
+                                    <h3 className="skill-title">Industrial Automation and Data Science Intern</h3>
+                                    <h4 className="skill-period">February 2022 - March 2023</h4>
+                                    <p className="skill-text">I extracted, analyzed, processed and presented data from the production process, creating tools for
+                                        data driven decision making, I also supported other areas with the information they needed.</p>
                                 </div>
                             </article>
                         </div>
@@ -112,11 +108,11 @@ function App() {
                                 <Skill level={5} text="English" />
                                 <Skill level={2} text="Chinese" />
                                 <Skill level={4} text="Excel" />
+                                <Skill level={4} text="VBA" />
                                 <Skill level={4} text="Web Dev" />
                                 <Skill level={5} text="Python" />
                                 <Skill level={4} text="Data Analysis" />
                                 <Skill level={4} text="SQL" />
-                                <Skill level={5} text="Ignition SCADA" />
                             </div>
                         </section>
                     </div>

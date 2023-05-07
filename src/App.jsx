@@ -66,9 +66,9 @@ function App() {
                             <article className="skill">
                                 <img className="skill-img" src={hsbc} alt="" />
                                 <div className="inner-skill">
-                                    <h3 className="skill-title">Cross Products Operations Intern</h3>
+                                    <h3 className="skill-title">Cross Product Services Operations Intern</h3>
                                     <h4 className="skill-period">April 2023 - Present</h4>
-                                    <p className="skill-text">I'm part of the Cross Products Operations team, I focus on bank reconciliation and generating reports regarding the bank's accounts. Additionally, I automate tasks to increase efficiency and reduce errors.</p>
+                                    <p className="skill-text">I'm part of the Cross Product Services Operations team, I focus on bank reconciliation and generating reports regarding the bank's accounts. Additionally, I automate tasks to increase efficiency and reduce errors.</p>
                                 </div>
                             </article>
                             <article className="skill">
